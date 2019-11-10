@@ -6,8 +6,8 @@
 ## TL;DR;
 
 ```bash
-$ helm repo add smizy https://smizy.github.io/charts
-$ helm install smizy/mosquitto
+$ helm repo add aljosavister https://aljosavister.github.io/charts
+$ helm install aljosavister/mosquitto
 ```
 
 ## Introduction
