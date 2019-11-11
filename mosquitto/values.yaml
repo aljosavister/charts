@@ -11,7 +11,14 @@ ingress:
 
 service:
   enabled: true
-  type: "ClusterIP"
+  annotations: {}
+  clusterIP: ""
+  externalIPs: []
+  loadBalancerIP: ""
+  loadBalancerSourceRanges: []
+  type: ClusterIP
+  port: 8888
+  nodePort: ""
 
 persistence:
   enabled: true
