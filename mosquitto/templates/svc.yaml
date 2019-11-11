@@ -13,7 +13,7 @@ spec:
   - name: headless
     protocol: TCP
     port: {{ .Values.service.port }}
-    targetPort: headless
+    targetPort: {{ .Values.service.targetPort }}
     nodePort: {{ .Values.service.nodePort }}
   selector:
     app: {{ template "fullname" . }}
